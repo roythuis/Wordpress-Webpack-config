@@ -1,0 +1,35 @@
+{
+  "name": "---Elonisas website---",
+  "version": "1.0.0",
+  "description": "A basic setup webpack setup for bootstrap and fontawesome",
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Elonisas",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "autoprefixer": "^9.5.1",
+    "babel-loader": "^8.0.5",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.5",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^2.1.1",
+    "jquery": "^3.4.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
